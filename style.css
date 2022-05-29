@@ -42,7 +42,6 @@ body {
   list-style: none;
   padding: 0;
   margin-top: -14px;
-  
 }
 .social_link ul li {
   display: inline-block;
@@ -99,16 +98,39 @@ body {
   color: #c289a4;
 }
 
-
-
 @media only screen and (max-width: 630px) {
-  .card_title{ font-size: 22px;}
-  .card_text{ font-size: 15px;}
-
+  .card_title {
+    font-size: 22px;
+  }
+  .card_text {
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 568px) {
-  .card_title{ letter-spacing: 6px}
-  .card_text{ font-size: 15px;}
-  .social_link ul li{ margin-right: 15px;}
-
+  .card_title {
+    letter-spacing: 6px;
+  }
+  .card_text {
+    font-size: 15px;
+  }
+  .social_link ul li {
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .card_title {
+    font-size: 12px;
+    letter-spacing: 6px;
+  }
+  .card_text {
+    font-size: 12px;
+  }
+  .social_link ul li {
+    margin-right: 15px;
+  }
+  .social_link ul li i {
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+  }
 }
